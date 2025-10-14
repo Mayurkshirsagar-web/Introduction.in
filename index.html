@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Introduction</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/cropped_circle_image.png">
+        <style>
+
+            strong {
+                font-weight: 600;
+                word-spacing: 4px;
+                line-height: 2px;
+            }
+
+            body {
+                background-color: rgb(247, 247, 247);
+            }
+
+            p {
+                font-family: Montserrat;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .welcome {
+                text-align: center;
+            }
+            .layout {
+                border-style: solid;
+                border-radius: 15px;
+                border-color: black;
+                border-width: 0px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                margin: 5%;
+                display: grid;
+                grid-template-rows: 0.5fr 250px 0.3fr 0.1fr 390px 2fr 1fr;
+            }
+
+            .wel {
+                margin-top: 10%;
+                margin-bottom: 8px;
+            }
+
+            .name {
+                margin-bottom: 70px;
+                opacity: 0.8;
+                font-size: 20px;
+            }
+
+            .image {
+                width: 100%;
+                display: block;
+                margin: 0 auto;
+                border-radius: 11px;
+                border-style: solid;
+                border-width: 2px;
+                border-color: rgb(161, 161, 161);
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            }
+
+            .image-div {
+                margin-top: px;
+                width: 160px;
+                height: 160px;
+                display: block;
+                margin: 0 auto;
+                border-radius: 5px;
+            }
+
+            .author {
+                text-align: center;
+                font-weight: 500;
+                opacity: 0.9;
+                font-size: 30px;
+                display: block;
+                margin: 0 auto;
+                border-radius: 10px;
+                padding: 5px;
+                width: 150px;
+                border-color: rgb(150, 150, 150);
+                border-style: solid;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                font-weight: 550;
+            }
+
+            .author:hover {
+                opacity: 0.8;
+            }
+
+            .author-name {
+                text-align: center;
+                font-size: 35px;
+                font-weight: bold;
+                margin-bottom: 17px;
+                margin-top: 24px;
+            }
+
+            .intro {
+                text-align: center;
+                width: 550px;
+                display: block;
+                margin: 0 auto;
+                font-size: 16.5px;
+                margin-bottom: 100px;
+                font-weight: 450;
+                opacity: 0.94;
+            }
+
+            .portfolio {
+                border-color: rgb(191, 191, 191);
+                border-style: solid;
+                border-radius: 25px;
+                margin: 5%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            }
+
+            button {
+                text-align: center;
+                display: block;
+                margin: 0 auto;
+                padding: 90px
+            }
+
+            .expert,
+            .achivements, 
+            .education {
+                margin-top: 7.9%
+            }
+
+            .portfolio-div {
+                border-style: solid;
+                display: block;
+                margin: 0 auto;
+                width: 50px;
+                height: 40px;
+                text-align: center;
+                font-weight: 500;
+                opacity: 0.9;
+                font-size: 30px;
+                border-radius: 10px;
+                padding: 5px;
+                width: 150px;
+                border-color: rgb(150, 150, 150);
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                font-weight: 550;
+            }
+
+            .education-img {
+                height: 20px;
+
+            }
+
+            .achivements-img {
+                height: 18px;
+            }
+
+            .expert-img {
+                height: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+         <div class="layout">
+            <!-- Welcome -->
+            <div class="welcome">
+                <p class="wel"><strong style="font-size: 60px">Welcome!</strong></p>
+                <p class="name">Introduction to Trick-Master</p>
+            </div>
+
+            <!-- Image -->
+            <div class="image-div">
+                <img src="images/profile-img.png" class="image">
+            </div>
+
+            <!-- Current -->
+            <div class="current">
+                <button class="author"><p>Author</p></button>
+                <div class="author-div">
+                    <p class="author-name">Mayur Namdev Kshirsagar</p>
+                </div>
+                <div class="intro">
+                    <p class="intro">Hi, I’m an <strong>18-year-old</strong> first-year student at <strong>NIT Durgapur</strong>, pursuing <strong>Computer Science and Engineering</strong>. I’m passionate about <strong>coding</strong> and <strong>love exploring new technologies</strong>. In my free time, I enjoy playing <strong>video games</strong> and <strong>cricket.</strong></p>
+                </div>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="portfolio-div">
+                <div>
+                    <p>Portfolio</p>
+                </div>
+            </div>
+
+                <div class="portfolio">
+                    <div>
+                        <a class="education-link" href="">
+                            <button class="education">
+                                <img class="education-img" src="images/education-removebg-preview.png">
+                                <p>Education</p>
+                            </button>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="achivements-link" href="">
+                            <button class="achivements">
+                                <img class="achivements-img" src="images/achievements-removebg-preview.png">
+                                <p>Achivements</p>
+                            </button>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="expert-link" href="">
+                            <button class="expert">
+                                <img class="expert-img" src="images/experts-removebg-preview.png">
+                                <p>Experience</p>
+                            </button>
+                        </a>
+                    </div>
+                </div> 
+
+            <!-- Contact Details -->
+            <div class="contact">
+                
+            </div>
+
+            <!-- Ending -->
+            <div class="end">
+                
+            </div>
+         </div>
+    </body>
+</html>
