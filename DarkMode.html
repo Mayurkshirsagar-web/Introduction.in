@@ -10,9 +10,7 @@
         <style>
 
             body {
-                background: linear-gradient(to right, #ffffff, #e4e4e4);
-
-
+                background: linear-gradient(to right, #424242, #343434);
             }
 
             strong {
@@ -25,6 +23,7 @@
                 font-family: Montserrat;
                 margin-top: 0px;
                 margin-bottom: 0px;
+                color: white;
             }
 
             .welcome {
@@ -33,9 +32,9 @@
             .layout {
                 border-style: solid;
                 border-radius: 15px;
-                border-color: black;
+                border-color: rgb(255, 255, 255);
                 border-width: 0px;
-                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
                 margin: 5%;
                 display: grid;
                 grid-template-rows: 0.5fr 270px 0.4fr 0.1fr 0.6fr 1fr 0.23fr;
@@ -59,8 +58,8 @@
                 border-radius: 11px;
                 border-style: solid;
                 border-width: 2px;
-                border-color: rgb(161, 161, 161);
-                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                border-color: rgb(255, 255, 255);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
             }
 
             .image-div {
@@ -82,9 +81,11 @@
                 border-radius: 10px;
                 padding: 5px;
                 width: 150px;
-                border-color: rgb(216, 216, 216);
+                color: white;
+                background-color: gray;
+                border-color: rgb(255, 255, 255);
                 border-style: solid;
-                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
                 font-weight: 550;
                 margin-bottom: 3%;
                 transition: margin-bottom 0.7s, opacity 0.4s, width 0.4s, height 0.4s, box-shadow 0.4s;
@@ -95,7 +96,7 @@
                 width: 157px;
                 height: 55px;
                 margin-bottom: 2.4%;
-                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
             }
 
             .author-name {
@@ -117,16 +118,18 @@
             }
 
             .portfolio {
-                border-color: rgb(227, 227, 227);
+                border-color: rgb(76, 76, 76);
                 border-style: solid;
                 border-radius: 25px;
                 margin: 4%;
+                color: white;
+                background-color: gray;
                 padding: 2.5%;
                 padding-right: 10px;
-                background-color: rgb(241, 241, 241);
+                background-color: rgb(82, 82, 82);;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
-                box-shadow: 0 0 20px rgba(0,0,0,0.2);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
             }
 
             button {
@@ -147,10 +150,10 @@
                 cursor: pointer;
                 border-radius: 20px;
                 border-style: solid;
-                border-color: rgb(223, 223, 223);
+                border-color: rgb(255, 255, 255);
                 background-color: rgb(244, 244, 244);
                 transition: height 0.3s, margin-top 1s, width 0.3s, box-shadow 0.3s, background-color 0.3s;
-                box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
             }
 
             .project:hover,
@@ -158,14 +161,16 @@
             .achivements:hover, 
             .education:hover {
                 width: 88%;
-                box-shadow: 0 0 25px rgba(0,0,0,0.5);
-                background-color: rgb(247, 247, 247);
+                box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+                background-color: rgb(237, 237, 237);
             }
 
             .portfolio-div {
                 border-style: solid;
                 display: block;
                 margin: 0 auto;
+                color: white;
+                background-color: gray;
                 height: 40px;
                 text-align: center;
                 font-weight: 500;
@@ -175,9 +180,8 @@
                 border-radius: 10px;
                 padding: 5.5px;
                 width: 150px;
-                border-color: rgb(227, 227, 227);
-                background-color: rgb(241, 241, 241);
-                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                border-color: rgb(255, 255, 255);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
                 font-weight: 550;
                 padding-top: 6px;
                 margin-bottom: 15px;
@@ -187,7 +191,7 @@
             .portfolio-div:hover {
                 width: 160px;
                 height: 45px;
-                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
                 padding: 3px;
                 margin-bottom: 0px;
             }
@@ -254,10 +258,12 @@
                 font-size: 25px;
                 border-radius: 10px;
                 width: 30%;
+                color: white;
+                background-color: gray;
                 height: 50px;
-                border-color: rgb(216, 216, 216);
+                border-color: rgb(255, 255, 255);
                 border-style: solid;
-                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
                 font-weight: 550;
                 transition: margin-bottom 0.7s, opacity 0.4s, width 0.4s, height 0.4s, box-shadow 0.4s;
             }
@@ -276,18 +282,18 @@
                 width: 30%;
                 height: 55px;
                 margin-bottom: 2.4%;
-                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
             }
 
             .contact-div {
-                border-color: rgb(227, 227, 227);
+                border-color: rgb(76, 76, 76);
                 border-style: solid;
                 border-radius: 25px;
                 margin: 7%;
                 padding: 2.5%;
                 padding-right: 10px;
-                background-color: rgb(241, 241, 241);
-                box-shadow: 0 0 20px rgba(0,0,0,0.2);
+                background-color: rgb(82, 82, 82);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
                 display: grid;
                 grid-template-rows: 80px 0.01fr 0.01fr 0.01fr 0.01fr;
             }
@@ -388,13 +394,14 @@
             .dark-img {
                 width: 30%;
                 display: block;
+                border-radius: 100px;
                 margin: 0 auto;
             }
 
             .Dark {
                 text-align: center;
                 margin-top: 20%;
-                margin-bottom: 1%;
+                margin-bottom: 3.5%;
                 font-weight: 600;
                 margin-right: 10px;
                 font-size: 20px;
@@ -405,8 +412,9 @@
                 border-radius: 100px;
                 margin-right: 10px;
                 border-style: none;
-                background: linear-gradient(to right, #e7e7e7, #e4e4e4);
+                background: linear-gradient(to right, #363636, #343434);
             }
+
 
         </style>
     </head>
@@ -421,8 +429,8 @@
                 </div>
 
                 <div>
-                    <p class="Dark">Dark Mode</p>
-                    <a href="DarkMode.html"><button class="dark-button"><img class="dark-img" src="images/darkmode-removebg-preview.png"></button></a>
+                    <p class="Dark">Light Mode</p>
+                    <a href="index.html"><button class="dark-button"><img class="dark-img" src="images/lightmode.png"></button></a>
                 </div>
             </div>
 
@@ -450,38 +458,38 @@
             </div>
 
                 <div class="portfolio">
-                    <div>
+                    <div class="back-portfolio">
                         <a href="Education.html">
                             <button class="education">
                                 <img class="education-img" src="images/education-removebg-preview.png">
-                                <p class="education-link">Education</p>
+                                <p style="color: #000000; opacity: 0.8;" class="education-link">Education</p>
                             </button>
                         </a>
                     </div>
 
-                    <div>
+                    <div class="back-portfolio">
                         <a href="Experience.html">
                             <button class="expert">
                                 <img class="expert-img" src="images/experts-removebg-preview.png">
-                                <p  class="expert-link">Experience</p>
+                                <p style="color: #000000; opacity: 0.8;" class="expert-link">Experience</p>
                             </button>
                         </a>
                     </div>
 
-                    <div>
+                    <div class="back-portfolio">
                         <a href="Achievement.html">
                             <button class="achivements">
                                 <img class="achivements-img" src="images/achievements-removebg-preview.png">
-                                <p class="achivements-link">Achivements</p>
+                                <p style="color: #000000; opacity: 0.8;" class="achivements-link">Achivements</p>
                             </button>
                         </a>
                     </div>
 
-                    <div>
+                    <div class="back-portfolio">
                         <a href="Project.html">
                             <button class="project">
                                 <img class="project-img" src="images/Projects.png">
-                                <p class="project-link">Projects</p>
+                                <p style="color: #000000; opacity: 0.8;" class="project-link">Projects</p>
                             </button>
                         </a>
                     </div>              
@@ -494,22 +502,22 @@
                     <div class="contact-layout">
                         <div class="phone-div">
                             <img class="phone-img" src="images/phone-icon-removebg-preview.png">
-                            <span class="phone">+91 8788287414</span>
+                            <span style="color: white; opacity: 0.8;" class="phone">+91 8788287414</span>
                         </div>
 
                         <div class="email-div">
                             <img class="email-img" src="images/email-icon-removebg-preview.png">
-                            <a class="email" href="mayurkshirsagar2510@gmail.com">mayurkshirsagar2510@gmail.com</a>
+                            <a style="color: white; opacity: 0.8;" class="email" href="mayurkshirsagar2510@gmail.com">mayurkshirsagar2510@gmail.com</a>
                         </div>
 
                         <div class="address-div">
                             <img class="address-img" src="images/address-icon-removebg-preview.png">
-                            <span class="address">Room no. - 216, Hall 11, NIT Durgapur, Durgapur, West Bengal, India</span>
+                            <span style="color: white; opacity: 0.8;" class="address">Room no. - 216, Hall 11, NIT Durgapur, Durgapur, West Bengal, India</span>
                         </div>
 
                         <div class="github-div">
                             <img class="github-img" src="images/github.icon.png">
-                            <a class="github" href="https://github.com/Mayurkshirsagar-web">Mayurkshirsagar-web</a>
+                            <a style="color: white; opacity: 0.8;" class="github" href="https://github.com/Mayurkshirsagar-web">Mayurkshirsagar-web</a>
                         </div>
                     </div>
             </div>
@@ -518,7 +526,7 @@
             <div class="end">
                 <p class="end1">Thank You for Visiting Our Introduction</p>
                     <div class="end-div">
-                        <img class="end-img" src="images/cropped_circle_image-removebg-preview.png">
+                        <img class="end-img" src="images/cropped_circle_image.png">
                         <p class="end2">© 2025 Trick Master.</p>
                     </div>
             </div>
