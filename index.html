@@ -42,7 +42,7 @@
                 box-shadow: 0 0 20px rgba(0,0,0,0.5);
                 margin: 5%;
                 display: grid;
-                grid-template-rows: 0.5fr 270px 0.3fr 0.1fr 1.1fr 1fr 1fr;
+                grid-template-rows: 0.5fr 270px 0.4fr 0.1fr 0.6fr 1fr 0.23fr;
             }
 
             .wel {
@@ -86,7 +86,7 @@
                 border-radius: 10px;
                 padding: 5px;
                 width: 150px;
-                border-color: rgb(150, 150, 150);
+                border-color: rgb(216, 216, 216);
                 border-style: solid;
                 box-shadow: 0 0 10px rgba(0,0,0,0.5);
                 font-weight: 550;
@@ -129,7 +129,7 @@
                 padding-right: 10px;
                 background-color: rgb(241, 241, 241);
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
                 box-shadow: 0 0 20px rgba(0,0,0,0.2);
             }
 
@@ -141,6 +141,7 @@
                 cursor: pointer;
             }
 
+            .project,
             .expert,
             .achivements, 
             .education {
@@ -156,6 +157,7 @@
                 box-shadow: 0 0 15px rgba(0,0,0,0.2);
             }
 
+            .project:hover,
             .expert:hover,
             .achivements:hover, 
             .education:hover {
@@ -177,7 +179,7 @@
                 border-radius: 10px;
                 padding: 5.5px;
                 width: 150px;
-                border-color: rgb(150, 150, 150);
+                border-color: rgb(227, 227, 227);
                 background-color: rgb(241, 241, 241);
                 box-shadow: 0 0 10px rgba(0,0,0,0.5);
                 font-weight: 550;
@@ -199,15 +201,15 @@
             }
 
             .education-img {
-                height: 89px;
+                height: 84px;
                 object-position: center;
                 display: block;
                 margin: 0 auto;
-                margin-bottom: 15px;
+                margin-bottom: 8px;
             }
 
             .achivements-img {
-                height: 85px;
+                height: 81px;
                 object-position: center;
                 display: block;
                 margin: 0 auto;
@@ -216,7 +218,7 @@
             }
 
             .expert-img {
-                height: 85px;
+                height: 81px;
                 object-position: center;
                 display: block;
                 margin: 0 auto;
@@ -224,6 +226,17 @@
                 margin-top: 5px;
             }
 
+            .project-img {
+                height: 76px;
+                object-position: center;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 5px;
+                margin-top: 8px;
+            }
+
+
+            .project-link,
             .expert-link,
             .achivements-link,
             .education-link {
@@ -232,6 +245,143 @@
                 opacity: 0.8;
                 text-decoration: none;
                 opacity: 0.7;
+                margin-bottom: 6%;
+            }
+
+            .contact {
+                padding: 0%;
+                margin-top: 0%;
+                text-align: center;
+                font-weight: 500;
+                opacity: 0.9;
+                margin-bottom: 0%;
+                font-size: 25px;
+                border-radius: 10px;
+                width: 30%;
+                height: 50px;
+                border-color: rgb(216, 216, 216);
+                border-style: solid;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                font-weight: 550;
+                transition: margin-bottom 0.7s, opacity 0.4s, width 0.4s, height 0.4s, box-shadow 0.4s;
+            }
+
+            .github-div,
+            .phone-div,
+            .address-div,
+            .email-div {
+                margin-left: 3.5%;
+                display: grid;
+                grid-template-columns: 58px 1fr;
+            }
+
+            .contact:hover {
+                opacity: 0.8;
+                width: 30%;
+                height: 55px;
+                margin-bottom: 2.4%;
+                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            }
+
+            .contact-div {
+                border-color: rgb(227, 227, 227);
+                border-style: solid;
+                border-radius: 25px;
+                margin: 7%;
+                padding: 2.5%;
+                padding-right: 10px;
+                background-color: rgb(241, 241, 241);
+                box-shadow: 0 0 20px rgba(0,0,0,0.2);
+                display: grid;
+                grid-template-rows: 80px 0.01fr 0.01fr 0.01fr 0.01fr;
+            }
+
+            .phone-img {
+                width: 40px;
+                margin: 0.5%;
+                margin-left: 0%;
+                margin-top: 0.5%;
+                margin-bottom: 0%;
+            }
+
+            .email-img {
+                width: 40px;
+                margin: 0.5%;
+                margin-left: 3%;
+                margin-top: 0%;
+            }
+
+            .address-img {
+                width: 30px;
+                margin: 0.5%;
+                margin-left: 12%;
+                margin-top: 8%;
+            }
+
+            .github-img {
+                width: 23px;
+                margin: 0.5%;
+                margin-left: 18%;
+                margin-top: 22%;
+            }
+
+            a {
+                font-family: Montserrat;
+                font-size: 15px;
+            }
+
+            .phone {
+                font-size: 15px;
+                display: inline-block;
+                font-family: Montserrat;
+                margin-top: 11px;
+            }
+
+            .address {
+                font-size: 15px;
+                display: inline-block;
+                font-family: Montserrat;
+                margin-top: 8.5px;
+            }
+
+            .github {
+                font-size: 15px;
+                margin-top: 13px;
+                margin-left: 1px;
+            }
+
+            .email {
+                font-size: 15px;
+                margin-top: 7.5px;
+            }
+
+            .end1 {
+                text-align: center;
+                font-weight: 500;
+            }
+
+            .end-img {
+                margin-left: 85%;
+                width: 24px;
+                margin-right: 0px;
+            }
+
+            .end2 {
+                display: inline-block;
+                margin-left: px;
+                margin-top: 2.5px;
+                font-size: 15px;
+            }
+
+            .end-div {
+                display: grid;
+                grid-template-columns: 0.5fr 1.1fr ;
+                margin-left: 16.9%;
+            }
+
+            .end{
+                word-spacing: 0px;                
+                font-weight: 450;
             }
 
         </style>
@@ -278,6 +428,15 @@
                     </div>
 
                     <div>
+                        <a href="Experience.html">
+                            <button class="expert">
+                                <img class="expert-img" src="images/experts-removebg-preview.png">
+                                <p  class="expert-link">Experience</p>
+                            </button>
+                        </a>
+                    </div>
+
+                    <div>
                         <a href="Achievement.html">
                             <button class="achivements">
                                 <img class="achivements-img" src="images/achievements-removebg-preview.png">
@@ -287,23 +446,49 @@
                     </div>
 
                     <div>
-                        <a href="Experience.html">
-                            <button class="expert">
-                                <img class="expert-img" src="images/experts-removebg-preview.png">
-                                <p  class="expert-link">Experience</p>
+                        <a href="Project.html">
+                            <button class="project">
+                                <img class="project-img" src="images/Projects.png">
+                                <p class="project-link">Projects</p>
                             </button>
                         </a>
-                    </div>
-                </div> 
+                    </div>              
+            </div>
 
             <!-- Contact Details -->
-            <div class="contact">
-                
+            <div class="contact-div">
+                <button class="contact"><p>Contact Details</p></button>
+
+                    <div class="contact-layout">
+                        <div class="phone-div">
+                            <img class="phone-img" src="images/phone-icon-removebg-preview.png">
+                            <span class="phone">+91 8788287414</span>
+                        </div>
+
+                        <div class="email-div">
+                            <img class="email-img" src="images/email-icon-removebg-preview.png">
+                            <a class="email" href="mayurkshirsagar2510@gmail.com">mayurkshirsagar2510@gmail.com</a>
+                        </div>
+
+                        <div class="address-div">
+                            <img class="address-img" src="images/address-icon-removebg-preview.png">
+                            <span class="address">Room no. - 216, Hall 11, NIT Durgapur, Durgapur, West Bengal, India</span>
+                        </div>
+
+                        <div class="github-div">
+                            <img class="github-img" src="images/github.icon.png">
+                            <a class="github" href="https://github.com/Mayurkshirsagar-web">Mayurkshirsagar-web</a>
+                        </div>
+                    </div>
             </div>
 
             <!-- Ending -->
             <div class="end">
-                
+                <p class="end1">Thank You for Visiting Our Introduction</p>
+                    <div class="end-div">
+                        <img class="end-img" src="images/cropped_circle_image-removebg-preview.png">
+                        <p class="end2">© 2025 Trick Master.</p>
+                    </div>
             </div>
          </div>
     </body>
