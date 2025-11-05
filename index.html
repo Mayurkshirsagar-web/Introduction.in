@@ -6,13 +6,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" href="images/cropped_circle_image.png">
+        <link rel="icon" type="image/png" href="images/icon-removebg-preview-removebg-preview.png">
         <style>
+
+            a {
+                text-decoration:none;
+            }
 
             body {
                 background: linear-gradient(to right, #ffffff, #e4e4e4);
-
-
             }
 
             strong {
@@ -32,10 +34,10 @@
             }
             .layout {
                 border-style: solid;
-                border-radius: 15px;
+                border-radius: 3px;
                 border-color: black;
                 border-width: 0px;
-                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                box-shadow: 0 0 28px rgba(0,0,0,0.4);
                 margin: 5%;
                 display: grid;
                 grid-template-rows: 0.5fr 270px 0.4fr 0.1fr 0.6fr 1fr 0.23fr;
@@ -120,13 +122,41 @@
                 border-color: rgb(227, 227, 227);
                 border-style: solid;
                 border-radius: 25px;
-                margin: 4%;
+                margin: 6%;
                 padding: 2.5%;
                 padding-right: 10px;
-                background-color: rgb(241, 241, 241);
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
-                box-shadow: 0 0 20px rgba(0,0,0,0.2);
+                box-shadow: 0 0 25px rgba(0,0,0,0.2);
+                background: linear-gradient(142deg, #ffffff, #d2d2d2, #c1c1c1);
+                background-size: 800% 800%;
+
+                -webkit-animation: rectangular 8s ease infinite;
+                -moz-animation: rectangular 8s ease infinite;
+                -o-animation: rectangular 8s ease infinite;
+                animation: rectangular 8s ease infinite;
+
+            }
+
+            @-webkit-keyframes rectangular {
+                0%{background-position:0% 52%}
+                50%{background-position:100% 49%}
+                100%{background-position:0% 52%}
+            }
+            @-moz-keyframes rectangular {
+                0%{background-position:0% 52%}
+                50%{background-position:100% 49%}
+                100%{background-position:0% 52%}
+            }
+            @-o-keyframes rectangular {
+                0%{background-position:0% 52%}
+                50%{background-position:100% 49%}
+                100%{background-position:0% 52%}
+            }
+            @keyframes rectangular {
+                0%{background-position:0% 52%}
+                50%{background-position:100% 49%}
+                100%{background-position:0% 52%}
             }
 
             button {
@@ -148,7 +178,7 @@
                 border-radius: 20px;
                 border-style: solid;
                 border-color: rgb(223, 223, 223);
-                background-color: rgb(244, 244, 244);
+                background-color: rgb(237, 237, 237);
                 transition: height 0.3s, margin-top 1s, width 0.3s, box-shadow 0.3s, background-color 0.3s;
                 box-shadow: 0 0 15px rgba(0,0,0,0.2);
             }
@@ -197,37 +227,34 @@
             }
 
             .education-img {
-                height: 84px;
+                height: 90px;
                 object-position: center;
                 display: block;
                 margin: 0 auto;
-                margin-bottom: 8px;
             }
 
             .achivements-img {
-                height: 81px;
+                height: 90px;
                 object-position: center;
                 display: block;
                 margin: 0 auto;
-                margin-bottom: 10px;
                 margin-top: 5px;
             }
 
             .expert-img {
-                height: 81px;
+                height: 90px;
                 object-position: center;
                 display: block;
                 margin: 0 auto;
-                margin-bottom: 10px;
                 margin-top: 5px;
             }
 
             .project-img {
-                height: 76px;
+                height: 90px;
                 object-position: center;
                 display: block;
                 margin: 0 auto;
-                margin-bottom: 5px;
+                margin-bottom: 0px;
                 margin-top: 8px;
             }
 
@@ -253,7 +280,7 @@
                 margin-bottom: 0%;
                 font-size: 25px;
                 border-radius: 10px;
-                width: 30%;
+                width: 35%;
                 height: 50px;
                 border-color: rgb(216, 216, 216);
                 border-style: solid;
@@ -273,7 +300,7 @@
 
             .contact:hover {
                 opacity: 0.8;
-                width: 30%;
+                width: 37%;
                 height: 55px;
                 margin-bottom: 2.4%;
                 box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -283,11 +310,11 @@
                 border-color: rgb(227, 227, 227);
                 border-style: solid;
                 border-radius: 25px;
-                margin: 7%;
-                padding: 2.5%;
+                margin: 10%;
+                padding: 2%;
                 padding-right: 10px;
-                background-color: rgb(241, 241, 241);
-                box-shadow: 0 0 20px rgba(0,0,0,0.2);
+                background-color: rgb(237, 237, 237);
+                box-shadow: 0 0 25px rgba(0,0,0,0.2);
                 display: grid;
                 grid-template-rows: 80px 0.01fr 0.01fr 0.01fr 0.01fr;
             }
@@ -369,12 +396,6 @@
                 font-size: 15px;
             }
 
-            .end-div {
-                display: grid;
-                grid-template-columns: 0.5fr 1.1fr ;
-                margin-left: 16.9%;
-            }
-
             .end{
                 word-spacing: 0px;                
                 font-weight: 450;
@@ -405,13 +426,18 @@
                 border-radius: 100px;
                 margin-right: 10px;
                 border-style: none;
-                background: linear-gradient(to right, #e7e7e7, #e4e4e4);
+                background: linear-gradient(to right, #e8e8e8, #e4e4e4);
+            }
+
+            .email,
+            .github {
+                color: black;
             }
 
         </style>
     </head>
     <body>
-         <div class="layout">
+        <div class="layout">
             <!-- Welcome -->
             <div class="welcome-layout">
                 <div></div>
@@ -435,10 +461,10 @@
             <div class="current">
                 <button class="author"><p>Author</p></button>
                 <div class="author-div">
-                    <p class="author-name">XXX - XXXX - XXX</p>
+                    <p class="author-name">[ Trick Master ]</p>
                 </div>
                 <div class="intro">
-                    <p class="intro">Hi, I’m an <strong>18-year-old</strong> first-year student at <strong>XXXXXX</strong>, pursuing <strong>Computer Science and Engineering</strong>. I’m passionate about <strong>coding</strong> and <strong>love exploring new technologies</strong>. In my free time, I enjoy playing <strong>video games</strong> and <strong>cricket.</strong></p>
+                    <p class="intro">Hi, I’m an <strong>18-year-old</strong> first-year student at <strong>ERROR</strong> pursuing <strong>Computer Science and Engineering (CSE)</strong>. I’m passionate about <strong>coding</strong> and <strong>love exploring new technologies</strong>. In my free time, I enjoy playing <strong>video games</strong> and <strong>cricket.</strong></p>
                 </div>
             </div>
 
@@ -462,7 +488,7 @@
                     <div>
                         <a href="Experience.html">
                             <button class="expert">
-                                <img class="expert-img" src="images/experts-removebg-preview.png">
+                                <img class="expert-img" src="images/experience-removebg-preview.png">
                                 <p  class="expert-link">Experience</p>
                             </button>
                         </a>
@@ -480,7 +506,7 @@
                     <div>
                         <a href="Project.html">
                             <button class="project">
-                                <img class="project-img" src="images/Projects.png">
+                                <img class="project-img" src="images/project-removebg-preview.png">
                                 <p class="project-link">Projects</p>
                             </button>
                         </a>
@@ -494,32 +520,32 @@
                     <div class="contact-layout">
                         <div class="phone-div">
                             <img class="phone-img" src="images/phone-icon-removebg-preview.png">
-                            <span class="phone">+91 8788xxxxxx</span>
+                            <span style="opacity: 0.9;" class="phone">+91 878828XXXX</span>
                         </div>
 
                         <div class="email-div">
                             <img class="email-img" src="images/email-icon-removebg-preview.png">
-                            <a class="email" href="">xxxxxxxxxxxxxxxx@gmail.com</a>
+                            <a class="email" style="opacity: 0.9;" href="mayurkshirsagar2510@gmail.com">mayurkshirsagar2510@gmail.com</a>
                         </div>
 
                         <div class="address-div">
                             <img class="address-img" src="images/address-icon-removebg-preview.png">
-                            <span class="address">@#!, XX!, EWQ, India</span>
+                            <span style="opacity: 0.9;" class="address">India</span>
                         </div>
 
                         <div class="github-div">
                             <img class="github-img" src="images/github.icon.png">
-                            <a class="github" href="https://github.com">XXXX-web</a>
+                            <a style="opacity: 0.9;" class="github" href="https://github.com/Mayurkshirsagar-web">Github Account</a>
                         </div>
                     </div>
             </div>
 
             <!-- Ending -->
             <div class="end">
-                <p class="end1">Thank You for Visiting Our Introduction</p>
+                <p style="opacity: 0.9;" class="end1">Thank You for Visiting Our Introduction</p>
                     <div class="end-div">
-                        <img class="end-img" src="images/cropped_circle_image-removebg-preview.png">
-                        <p class="end2">© 2025 Trick Master.</p>
+                        <p  class="end" style="text-align: center; opacity: 0.9; font-size: 17px;">All Rights Reserved.</p>
+                        <p style="opacity: 0.9;" class="end1" style="text-align: center;">© 2025 Trick Master.</p>
                     </div>
             </div>
          </div>
